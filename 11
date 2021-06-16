@@ -1,3 +1,8 @@
+svg:not(:root).svg-inline--fa{overflow:visible;}
+.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em;}
+.svg-inline--fa.fa-w-14{width:.875em;}
+
+
 /*! CSS Used from: https://capitalmarkets.fanniemae.com/sites/g/files/koqyhd216/files/css/css_558kd3pdnzCVNArgEIoHYRUOVEAQ9uvfIHQ9eN2dlF0.css ; media=all */
 @media all{
 .visually-hidden{position:absolute!important;overflow:hidden;clip:rect(1px,1px,1px,1px);width:1px;height:1px;word-wrap:normal;}
