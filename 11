@@ -1,5 +1,75 @@
 /*! CSS Used from: https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css */
 *,::after,::before{box-sizing:border-box;}
+ul{padding-left:2rem;}
+ul{margin-top:0;margin-bottom:1rem;}
+a{color:#0d6efd;text-decoration:underline;}
+a:hover{color:#0a58ca;}
+svg{vertical-align:middle;}
+button{border-radius:0;}
+button:focus:not(:focus-visible){outline:0;}
+button{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+button{text-transform:none;}
+[type=button],button{-webkit-appearance:button;}
+::-moz-focus-inner{padding:0;border-style:none;}
+.col-12{flex:0 0 auto;width:100%;}
+@media (min-width:768px){
+.col-md-auto{flex:0 0 auto;width:auto;}
+.col-md-3{flex:0 0 auto;width:25%;}
+}
+.btn{display:inline-block;font-weight:400;line-height:1.5;color:#212529;text-align:center;text-decoration:none;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+@media (prefers-reduced-motion:reduce){
+.btn{transition:none;}
+}
+.btn:hover{color:#212529;}
+.btn:focus{outline:0;box-shadow:0 0 0 .25rem rgba(13,110,253,.25);}
+.btn:disabled{pointer-events:none;opacity:.65;}
+.btn-primary{color:#fff;background-color:#0d6efd;border-color:#0d6efd;}
+.btn-primary:hover{color:#fff;background-color:#0b5ed7;border-color:#0a58ca;}
+.btn-primary:focus{color:#fff;background-color:#0b5ed7;border-color:#0a58ca;box-shadow:0 0 0 .25rem rgba(49,132,253,.5);}
+.btn-primary:active{color:#fff;background-color:#0a58ca;border-color:#0a53be;}
+.btn-primary:active:focus{box-shadow:0 0 0 .25rem rgba(49,132,253,.5);}
+.btn-primary:disabled{color:#fff;background-color:#0d6efd;border-color:#0d6efd;}
+.btn-outline-primary{color:#0d6efd;border-color:#0d6efd;}
+.btn-outline-primary:hover{color:#fff;background-color:#0d6efd;border-color:#0d6efd;}
+.btn-outline-primary:focus{box-shadow:0 0 0 .25rem rgba(13,110,253,.5);}
+.btn-outline-primary:active{color:#fff;background-color:#0d6efd;border-color:#0d6efd;}
+.btn-outline-primary:active:focus{box-shadow:0 0 0 .25rem rgba(13,110,253,.5);}
+.btn-outline-primary:disabled{color:#0d6efd;background-color:transparent;}
+.nav{display:flex;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none;}
+.nav-link{display:block;padding:.5rem 1rem;color:#0d6efd;text-decoration:none;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;}
+@media (prefers-reduced-motion:reduce){
+.nav-link{transition:none;}
+}
+.nav-link:focus,.nav-link:hover{color:#0a58ca;}
+.link-secondary{color:#6c757d;}
+.link-secondary:focus,.link-secondary:hover{color:#565e64;}
+.link-dark{color:#212529;}
+.link-dark:focus,.link-dark:hover{color:#1a1e21;}
+.d-flex{display:flex!important;}
+.border-bottom{border-bottom:1px solid #dee2e6!important;}
+.flex-wrap{flex-wrap:wrap!important;}
+.justify-content-center{justify-content:center!important;}
+.align-items-center{align-items:center!important;}
+.me-2{margin-right:.5rem!important;}
+.mb-2{margin-bottom:.5rem!important;}
+.mb-4{margin-bottom:1.5rem!important;}
+.px-2{padding-right:.5rem!important;padding-left:.5rem!important;}
+.py-3{padding-top:1rem!important;padding-bottom:1rem!important;}
+.text-end{text-align:right!important;}
+.text-decoration-none{text-decoration:none!important;}
+.text-dark{color:#212529!important;}
+@media (min-width:768px){
+.justify-content-md-between{justify-content:space-between!important;}
+.mb-md-0{margin-bottom:0!important;}
+}
+/*! CSS Used from: https://getbootstrap.com/docs/5.0/examples/headers/headers.css */
+.bi{vertical-align:-.125em;fill:currentColor;}
+
+
+
+@@@@@@@@@@
+/*! CSS Used from: https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
 hr{margin:1rem 0;color:inherit;background-color:currentColor;border:0;opacity:.25;}
 hr:not([size]){height:1px;}
 ul{padding-left:2rem;}
